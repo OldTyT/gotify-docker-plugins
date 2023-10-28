@@ -1,0 +1,7 @@
+---
+version: "3"
+services:
+  gotify:
+    image: ghcr.io/oldtyt/gotify-docker-plugins
+    environment:
+      GOTIFY_PLUGINS: "https://some_plugin1 https://some_plugin2"
